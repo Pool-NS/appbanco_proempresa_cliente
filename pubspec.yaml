@@ -1,0 +1,26 @@
+name: appbanco_proempresa_ventas
+description: "App Fuerza de Ventas - ProEmpresa - Entrega S9"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Puedes agregar provider o riverpod aquí si los usas para MVVM
+  provider: ^6.1.1 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # RECUERDA: Si vas a usar el logo de ProEmpresa, debes habilitar esto:
+  # assets:
+  #   - assets/images/logo_proempresa.png
